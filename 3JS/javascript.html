@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="scriptA.js" ></script>
+    <script src="scriptB.js" ></script>
+</head>
+<body>
+    <script>
+
+        //a
+        console.log(czyPitagorejskie(3, 4, 5));
+        wypiszPodzielne(1, 10, 2);
+        tabliczka(3);
+        fibonacci(11);
+        choinka(6);
+        choinkaNoca(6);
+
+        console.log(obliczPowierzchnie("trojkat", 8, 4)); // Powierzchnia trójkąta
+        console.log(obliczPowierzchnie("kolo", 5));
+
+        console.log(obliczPole("trojkat", trojkat, 4, 6));
+
+        trojkatPascala(5);
+          //b  
+        let s = new Student("Jan", "Kowalski");
+
+        s.dodajOcene = new Ocena("Matematyka", 4);
+        s.dodajOcene = new Ocena("Informatyka", 4.5);
+
+        console.log(s.oceny);
+        console.log(s.hello());
+
+    </script>
+</body>
+</html>
